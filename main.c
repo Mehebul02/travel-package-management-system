@@ -34,6 +34,7 @@ struct Payment {
     char payment_method[20];
 };
 
+// test 
 void addPackage() {
     FILE *fp = fopen("packages.txt", "a");
     struct Package p;
